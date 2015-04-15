@@ -1,2 +1,1 @@
-# sublimetext-config
-My custom settings for the Sublime Text Editor.
+The intention of this repository is to be cloned into the `%AppData%\Sublime Text 3\Packages\User` folder.  You can forcibly clone into an existing repository with `git clone https://github.com/skparkes/sublimetext-config.git .` (notice the trailing `.`).
