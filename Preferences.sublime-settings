@@ -6,6 +6,12 @@
    "highlight_modified_tabs": true,
    "show_encoding": true,
 
+   // The number of spaces a tab is considered equal to
+   "tab_size": 4,
+
+   // Set to true to insert spaces when tab is pressed
+   "translate_tabs_to_spaces": true,
+
    // By default, auto complete will commit the current completion on enter.
    // This setting can be used to make it complete on tab instead.
    // Completing on tab is generally a superior option, as it removes
