@@ -1,0 +1,5 @@
+{
+	"non_blocking": true,
+	"debounce_delay": 500,
+	"show_status": "all",
+}
