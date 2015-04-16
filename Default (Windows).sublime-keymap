@@ -3,4 +3,8 @@
 		"keys": ["f4"],
 		"command": "side_bar_open",
 	},
+	{
+		"keys": ["f1"],
+		"command": "sublime_jedi_docstring ",
+	},
 ]
