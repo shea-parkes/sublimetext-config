@@ -13,6 +13,7 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-pylint",
+		"SublimeREPL",
 		"Terminal"
 	]
 }
