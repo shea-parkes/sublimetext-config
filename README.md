@@ -35,7 +35,6 @@ Most people would utilize IPython in the SublimeREPL, and IPython comes with it'
 | Windows | `Ctl`+`PageUp` (or `PageDown`) | Switch tabs in current window. |
 | Windows | `Alt`+`Shift`+`1` (or `2`) | Make 1 (or 2) windows. |
 | Windows | `Ctl`+`1` (or `2`) | Move focus to first (or second) window. |
-| Windows | `Ctl`+`K`,`Left` (or `Right`) | Move focus in the chosen direction. |
 | Windows | `Ctl`+`Shift`+`1` (or `2`) | Move current view into first (or second) window. |
 | Windows | `Ctl`+`K`,`B` | Show/hide sidebar. |
 | Windows | `Ctl`+`Up` (or `Down`) | Scroll window without moving cursor. |
