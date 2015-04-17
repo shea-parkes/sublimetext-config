@@ -32,7 +32,7 @@ Most people would utilize IPython in the SublimeREPL, and IPython comes with it'
 | Root | `Ctl`+` | Internal Sublime console. |
 | Root | `Ctl`+`Alt`+`P` | Switch project. |
 | Root | `Ctl`+`B` | Build project (or preview Markdown) |
-| Windows | `Ctl`+`PageUp` (or `PageDown`) | Switch tabs in current window. |
+| Windows | `Ctl`+`PageUp` (or `PageDown`) | Cycle tabs (goes between windows). |
 | Windows | `Alt`+`Shift`+`1` (or `2`) | Make 1 (or 2) windows. |
 | Windows | `Ctl`+`1` (or `2`) | Move focus to first (or second) window. |
 | Windows | `Ctl`+`Shift`+`1` (or `2`) | Move current view into first (or second) window. |
