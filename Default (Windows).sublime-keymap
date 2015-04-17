@@ -7,4 +7,10 @@
 		"keys": ["f1"],
 		"command": "sublime_jedi_docstring ",
 	},
+	{
+		// Retore default over PyDOC
+		"keys": ["ctrl+2"],
+		"command": "focus_group",
+		"args": { "group": 1 }
+	},
 ]

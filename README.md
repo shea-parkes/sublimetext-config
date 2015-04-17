@@ -29,7 +29,7 @@ This package manhandles the configuration file directory somewhat.  In insists o
 | Root | `Ctl`+`Alt`+`P` | Switch project. |
 | Windows | `Ctl`+`PageUp` (or `PageDown`) | Switch tabs in current window. |
 | Windows | `Alt`+`Shift`+`1` (or `2`) | Make 1 (or 2) windows. |
-| Windows | `Ctl`+`1` | Move focus to first window. (but not `2`) |
+| Windows | `Ctl`+`1` (or `2`) | Move focus to first (or second) window. |
 | Windows | `Ctl`+`K`,`Left` (or `Right`) | Move focus in the chosen direction. |
 | Windows | `Ctl`+`Shift`+`1` (or `2`) | Move current view into first (or second) window. |
 | Windows | `Ctl`+`K`,`B` | Show/hide sidebar. |
