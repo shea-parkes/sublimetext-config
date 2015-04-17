@@ -50,10 +50,10 @@ This package manhandles the configuration file directory somewhat.  In insists o
 | Text Manipulation | `Ctl`+`]` (or `[`) | Indent (or unindent) |
 | Text Manipulation | `Ctl`+`Shift`+`Up` (or `Down`) | Move current line/selection up (or down) |
 | Text Manipulation | `F9` (or `Ctl`+`F9`) | Sort lines case insensitive (or case-sensitive). |
-| SublimeLinter | `Ctl`+`K`,`N` (or `P`) | Goto next (or previous) warning. |
-| SublimeLinter | `Ctl`+`K`,`A` | Show all warnings. |
-| SublimeREPL | `Ctl`+`,`,`L` (or `S`) | Send line (or selection) to REPL. |
-| SublimeREPL | `Ctl`+`,`,`F` | Send whole file to REPL. |
+| SublimeLinter | `Ctl`+`K` then `N` (or `P`) | Goto next (or previous) warning. |
+| SublimeLinter | `Ctl`+`K` then `A` | Show all warnings. |
+| SublimeREPL | `Ctl`+`,` then `L` (or `S`) | Send line (or selection) to REPL. |
+| SublimeREPL | `Ctl`+`,` then `F` | Send whole file to REPL. |
 | GitGutter | `Ctl`+`Alt`+`Shift`+`J` (or `K`) | Goto next (or previous) change. |
 | PyDOC | `Ctl`+`3` | Search the current item on Python 3 web documentation. |
 | Jedi | `Ctl`+`Shift`+`G` (Or `Ctl`+`Left Click`) | Goto ~definition. |
