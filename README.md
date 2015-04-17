@@ -42,16 +42,18 @@ Most people would utilize IPython in the SublimeREPL, and IPython comes with it'
 | Selection (~Quick) | `Ctl`+`D` (and repeat) | Select the current, then the next (and next) instance of a word. |
 | Selection (~Quick) | `Ctl`+`U` (and repeat) | Undo the last `Ctl`+`D` (see above) |
 | Selection (~Quick) | `Ctl`+`K`,`D` | Skip the current instance of the word and select the next. |
-| Selection (~Quick) | `Alt`+`F3` | Select the current, and all other instances of a word. |
+| Selection (~Quick) | `Alt`+`F3` (or `Ctl`+`F3`) | Select (or find) the current, and all other instances of a word. |
 | Selection | `Ctl`+`Shift`+`Space` | Expand selection to scope. |
 | Selection | `Ctl`+`Shift`+`M` | Expand selection to brackets. |
 | Code Navigation | `Ctl`+`R` | Goto ~definition. |
 | Text Manipulation | `Ctl`+`/` | Toggle comment. |
 | Text Manipulation | `Ctl`+`Shift`+`/` | Toggle block comment. |
+| Text Manipulation | `Ctl`+`K`,`V` | Clipboard history. |
 | Text Manipulation | `Ctl`+`K`,`U` (or `L`) | Convert selection to uppercase (or lowercase). |
 | Text Manipulation | `Ctl`+`Space` | Force code completion. |
 | Text Manipulation | `Ctl`+`]` (or `[`) | Indent (or unindent) |
 | Text Manipulation | `Ctl`+`Shift`+`Up` (or `Down`) | Move current line/selection up (or down) |
+| Text Manipulation | `F6` | Toggle Spellcheck. |
 | Text Manipulation | `F9` (or `Ctl`+`F9`) | Sort lines case insensitive (or case-sensitive). |
 | SublimeLinter | `Ctl`+`K` then `N` (or `P`) | Goto next (or previous) warning. |
 | SublimeLinter | `Ctl`+`K` then `A` | Show all warnings. |
