@@ -20,6 +20,10 @@ The following setup seems to work well for best results when integrating with li
 
 This package manhandles the configuration file directory somewhat.  In insists on manipulating the chosen theme to have the colors it desires, so you'll see it constantly making a modified copy of the theme into this directory.  It also forces the user settings file to always have all the options enumerated in it.
 
+### Jedi + SublimeREPL
+
+Most people would utilize IPython in the SublimeREPL, and IPython comes with it's own code completion capabilities.  Therefor Jedi turns itself off when it detects a REPL instance (whether it's IPython or not).  The current SublimeREPL and IPython versions are unfortunately not compatible, so you need to use a base Python REPL.  To get Jedi to activate again in a base Python REPL, you need to comment out line 132 in `%AppData%/Sublime Text 3/Packages/Jedi - Python autocompletion/sublime_jedi/completion.py`.  Unfortunately, this edit will be overridden each time Jedi is automatically updated by Package Control.
+
 ## Shortcuts worth knowing
 | Family | Keys | Effect |
 | :----- | :--- | :----- |
