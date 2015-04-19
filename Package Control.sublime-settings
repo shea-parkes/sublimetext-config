@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"BracketHighlighter",
 		"GitGutter",
 		"Jedi - Python autocompletion",
 		"Markdown Preview",
