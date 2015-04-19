@@ -2,7 +2,7 @@
 	"user_brackets": [
 		{
 			"name": "sas_do",
-			"open": "(\\bdo;)",
+			"open": "(\\bdo\\b)",
 			"close": "(\\bend;)",
 			"style": "default",
 			"scope_exclude": ["string", "comment"],
@@ -42,8 +42,8 @@
 		},
 		{
 			"name": "sas_macro_do",
-			"open": "(\\b%do;)",
-			"close": "(\\b%end;)",
+			"open": "(\\%do\\b)",
+			"close": "(\\%end;)",
 			"style": "default",
 			"scope_exclude": ["string", "comment"],
 			"language_filter": "whitelist",
