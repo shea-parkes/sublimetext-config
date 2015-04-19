@@ -32,8 +32,8 @@
 		},
 		{
 			"name": "sas_macro_def",
-			"open": "(%macro)",
-			"close": "(%mend)",
+			"open": "(\\%macro)",
+			"close": "(\\%mend)",
 			"style": "default",
 			"scope_exclude": ["string", "comment"],
 			"language_filter": "whitelist",
