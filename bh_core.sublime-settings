@@ -12,8 +12,8 @@
 		},
 		{
 			"name": "sas_datastep",
-			"open": "(^ *data)",
-			"close": "(^ *run;)",
+			"open": "(^[ \\t]*data\\b)",
+			"close": "(\\brun;)",
 			"style": "default",
 			"scope_exclude": ["string", "comment"],
 			"language_filter": "whitelist",
@@ -22,7 +22,7 @@
 		},
 		{
 			"name": "sas_proc_sql",
-			"open": "(^ *proc sql)",
+			"open": "(^[ \\t]*proc sql)",
 			"close": "(\\bquit;)",
 			"style": "default",
 			"scope_exclude": ["string", "comment"],
