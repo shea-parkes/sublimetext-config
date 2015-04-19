@@ -1,0 +1,54 @@
+{
+	"user_brackets": [
+		{
+			"name": "sas_do",
+			"open": "(\\bdo;)",
+			"close": "(\\bend;)",
+			"style": "default",
+			"scope_exclude": ["string", "comment"],
+			"language_filter": "whitelist",
+			"language_list": ["sas"],
+			"enabled": true
+		},
+		{
+			"name": "sas_datastep",
+			"open": "(^ *data)",
+			"close": "(^ *run;)",
+			"style": "default",
+			"scope_exclude": ["string", "comment"],
+			"language_filter": "whitelist",
+			"language_list": ["sas"],
+			"enabled": true
+		},
+		{
+			"name": "sas_proc_sql",
+			"open": "(^ *proc sql)",
+			"close": "(\\bquit;)",
+			"style": "default",
+			"scope_exclude": ["string", "comment"],
+			"language_filter": "whitelist",
+			"language_list": ["sas"],
+			"enabled": true
+		},
+		{
+			"name": "sas_macro_def",
+			"open": "(%macro)",
+			"close": "(%mend)",
+			"style": "default",
+			"scope_exclude": ["string", "comment"],
+			"language_filter": "whitelist",
+			"language_list": ["sas"],
+			"enabled": true
+		},
+		{
+			"name": "sas_macro_do",
+			"open": "(\\b%do;)",
+			"close": "(\\b%end;)",
+			"style": "default",
+			"scope_exclude": ["string", "comment"],
+			"language_filter": "whitelist",
+			"language_list": ["sas"],
+			"enabled": true
+		},
+	],
+}
