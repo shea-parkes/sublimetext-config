@@ -1,4 +1,10 @@
 {
+	"added_words":
+	[
+		"Milliman",
+		"metadata",
+		"programmatically"
+	],
 	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/User/SublimeLinter/Zenburnesque (SL).tmTheme",
 	"draw_white_space": "all",
