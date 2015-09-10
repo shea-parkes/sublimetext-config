@@ -14,11 +14,19 @@ The following setup seems to work well for best results when integrating with li
   * It is **not** recommended to put the root path of your root Miniconda install because many plugins appear to get confused when they find the corresponding `python.exe` in that directory.
   * Most of the packages, especially the code completion packages, allow to explicitly specify extra paths/environments to scan/utilize.  You can specify these in the root Sublime settings for the corresponding package, or often in the project level settings file as well.
 
-##Notes on various packages:
+## Notes on various packages:
 
 ### SublimeLinter
 
 This package manhandles the configuration file directory somewhat.  In insists on manipulating the chosen theme to have the colors it desires, so you'll see it constantly making a modified copy of the theme into this directory.  It also forces the user settings file to always have all the options enumerated in it.
+
+### SublimeREPL and the Current Working Directory
+
+SublimeREPL works fairly well for basic REPLs out of the box (e.g. Python).  You must be mindful of what tab you have in focus when you launch a REPL though, because the current working directory of the resulting REPL depends upon your prior tab focus.  This is important in Python because the current working directory is the first place Python looks to import packages (even over the standard library).  
+  * If you had a file in focus, the current working directory becomes the folder that contains that file
+    * Generally a good thing, especially when developing on python packages (you can easily import other files during testing/development).
+  * If you don't have a file in focus, it will set the current working directory to the installation folder of SublimeText itself.
+    * Generally a bad thing.  It causes havoc with Python REPLs because they then try to import the python packages that are bundled with SublimeText and trigger all kinds of version conflicts (SublimeText is built on Python 3.3 currently).
 
 ### Jedi + SublimeREPL
 
